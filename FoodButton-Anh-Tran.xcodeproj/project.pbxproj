@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022144BC26E7FA1900E45688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022144BB26E7FA1900E45688 /* AppDelegate.swift */; };
+		022144BE26E7FA1900E45688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022144BD26E7FA1900E45688 /* SceneDelegate.swift */; };
+		022144C026E7FA1900E45688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022144BF26E7FA1900E45688 /* ViewController.swift */; };
+		022144C326E7FA1900E45688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022144C126E7FA1900E45688 /* Main.storyboard */; };
+		022144C526E7FA1E00E45688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022144C426E7FA1E00E45688 /* Assets.xcassets */; };
+		022144C826E7FA1E00E45688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022144C626E7FA1E00E45688 /* LaunchScreen.storyboard */; };
+		022144D326E7FA1E00E45688 /* FoodButton_Anh_TranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022144D226E7FA1E00E45688 /* FoodButton_Anh_TranTests.swift */; };
+		022144DE26E7FA1E00E45688 /* FoodButton_Anh_TranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022144DD26E7FA1E00E45688 /* FoodButton_Anh_TranUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		022144CF26E7FA1E00E45688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 022144B026E7FA1900E45688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022144B726E7FA1900E45688;
+			remoteInfo = "FoodButton-Anh-Tran";
+		};
+		022144DA26E7FA1E00E45688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 022144B026E7FA1900E45688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022144B726E7FA1900E45688;
+			remoteInfo = "FoodButton-Anh-Tran";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022144B826E7FA1900E45688 /* FoodButton-Anh-Tran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodButton-Anh-Tran.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		022144BB26E7FA1900E45688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		022144BD26E7FA1900E45688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		022144BF26E7FA1900E45688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		022144C226E7FA1900E45688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		022144C426E7FA1E00E45688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		022144C726E7FA1E00E45688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		022144C926E7FA1E00E45688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022144CE26E7FA1E00E45688 /* FoodButton-Anh-TranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodButton-Anh-TranTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		022144D226E7FA1E00E45688 /* FoodButton_Anh_TranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodButton_Anh_TranTests.swift; sourceTree = "<group>"; };
+		022144D426E7FA1E00E45688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022144D926E7FA1E00E45688 /* FoodButton-Anh-TranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodButton-Anh-TranUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		022144DD26E7FA1E00E45688 /* FoodButton_Anh_TranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodButton_Anh_TranUITests.swift; sourceTree = "<group>"; };
+		022144DF26E7FA1E00E45688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		022144B526E7FA1900E45688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		022144CB26E7FA1E00E45688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		022144D626E7FA1E00E45688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022144AF26E7FA1900E45688 = {
+			isa = PBXGroup;
+			children = (
+				022144BA26E7FA1900E45688 /* FoodButton-Anh-Tran */,
+				022144D126E7FA1E00E45688 /* FoodButton-Anh-TranTests */,
+				022144DC26E7FA1E00E45688 /* FoodButton-Anh-TranUITests */,
+				022144B926E7FA1900E45688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		022144B926E7FA1900E45688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				022144B826E7FA1900E45688 /* FoodButton-Anh-Tran.app */,
+				022144CE26E7FA1E00E45688 /* FoodButton-Anh-TranTests.xctest */,
+				022144D926E7FA1E00E45688 /* FoodButton-Anh-TranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		022144BA26E7FA1900E45688 /* FoodButton-Anh-Tran */ = {
+			isa = PBXGroup;
+			children = (
+				022144BB26E7FA1900E45688 /* AppDelegate.swift */,
+				022144BD26E7FA1900E45688 /* SceneDelegate.swift */,
+				022144BF26E7FA1900E45688 /* ViewController.swift */,
+				022144C126E7FA1900E45688 /* Main.storyboard */,
+				022144C426E7FA1E00E45688 /* Assets.xcassets */,
+				022144C626E7FA1E00E45688 /* LaunchScreen.storyboard */,
+				022144C926E7FA1E00E45688 /* Info.plist */,
+			);
+			path = "FoodButton-Anh-Tran";
+			sourceTree = "<group>";
+		};
+		022144D126E7FA1E00E45688 /* FoodButton-Anh-TranTests */ = {
+			isa = PBXGroup;
+			children = (
+				022144D226E7FA1E00E45688 /* FoodButton_Anh_TranTests.swift */,
+				022144D426E7FA1E00E45688 /* Info.plist */,
+			);
+			path = "FoodButton-Anh-TranTests";
+			sourceTree = "<group>";
+		};
+		022144DC26E7FA1E00E45688 /* FoodButton-Anh-TranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				022144DD26E7FA1E00E45688 /* FoodButton_Anh_TranUITests.swift */,
+				022144DF26E7FA1E00E45688 /* Info.plist */,
+			);
+			path = "FoodButton-Anh-TranUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		022144B726E7FA1900E45688 /* FoodButton-Anh-Tran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022144E226E7FA1E00E45688 /* Build configuration list for PBXNativeTarget "FoodButton-Anh-Tran" */;
+			buildPhases = (
+				022144B426E7FA1900E45688 /* Sources */,
+				022144B526E7FA1900E45688 /* Frameworks */,
+				022144B626E7FA1900E45688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FoodButton-Anh-Tran";
+			productName = "FoodButton-Anh-Tran";
+			productReference = 022144B826E7FA1900E45688 /* FoodButton-Anh-Tran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		022144CD26E7FA1E00E45688 /* FoodButton-Anh-TranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022144E526E7FA1E00E45688 /* Build configuration list for PBXNativeTarget "FoodButton-Anh-TranTests" */;
+			buildPhases = (
+				022144CA26E7FA1E00E45688 /* Sources */,
+				022144CB26E7FA1E00E45688 /* Frameworks */,
+				022144CC26E7FA1E00E45688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				022144D026E7FA1E00E45688 /* PBXTargetDependency */,
+			);
+			name = "FoodButton-Anh-TranTests";
+			productName = "FoodButton-Anh-TranTests";
+			productReference = 022144CE26E7FA1E00E45688 /* FoodButton-Anh-TranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		022144D826E7FA1E00E45688 /* FoodButton-Anh-TranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022144E826E7FA1E00E45688 /* Build configuration list for PBXNativeTarget "FoodButton-Anh-TranUITests" */;
+			buildPhases = (
+				022144D526E7FA1E00E45688 /* Sources */,
+				022144D626E7FA1E00E45688 /* Frameworks */,
+				022144D726E7FA1E00E45688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				022144DB26E7FA1E00E45688 /* PBXTargetDependency */,
+			);
+			name = "FoodButton-Anh-TranUITests";
+			productName = "FoodButton-Anh-TranUITests";
+			productReference = 022144D926E7FA1E00E45688 /* FoodButton-Anh-TranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		022144B026E7FA1900E45688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Anh Tran";
+				TargetAttributes = {
+					022144B726E7FA1900E45688 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					022144CD26E7FA1E00E45688 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 022144B726E7FA1900E45688;
+					};
+					022144D826E7FA1E00E45688 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 022144B726E7FA1900E45688;
+					};
+				};
+			};
+			buildConfigurationList = 022144B326E7FA1900E45688 /* Build configuration list for PBXProject "FoodButton-Anh-Tran" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 022144AF26E7FA1900E45688;
+			productRefGroup = 022144B926E7FA1900E45688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				022144B726E7FA1900E45688 /* FoodButton-Anh-Tran */,
+				022144CD26E7FA1E00E45688 /* FoodButton-Anh-TranTests */,
+				022144D826E7FA1E00E45688 /* FoodButton-Anh-TranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		022144B626E7FA1900E45688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022144C826E7FA1E00E45688 /* LaunchScreen.storyboard in Resources */,
+				022144C526E7FA1E00E45688 /* Assets.xcassets in Resources */,
+				022144C326E7FA1900E45688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		022144CC26E7FA1E00E45688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		022144D726E7FA1E00E45688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		022144B426E7FA1900E45688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022144C026E7FA1900E45688 /* ViewController.swift in Sources */,
+				022144BC26E7FA1900E45688 /* AppDelegate.swift in Sources */,
+				022144BE26E7FA1900E45688 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		022144CA26E7FA1E00E45688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022144D326E7FA1E00E45688 /* FoodButton_Anh_TranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		022144D526E7FA1E00E45688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022144DE26E7FA1E00E45688 /* FoodButton_Anh_TranUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		022144D026E7FA1E00E45688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 022144B726E7FA1900E45688 /* FoodButton-Anh-Tran */;
+			targetProxy = 022144CF26E7FA1E00E45688 /* PBXContainerItemProxy */;
+		};
+		022144DB26E7FA1E00E45688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 022144B726E7FA1900E45688 /* FoodButton-Anh-Tran */;
+			targetProxy = 022144DA26E7FA1E00E45688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		022144C126E7FA1900E45688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022144C226E7FA1900E45688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		022144C626E7FA1E00E45688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022144C726E7FA1E00E45688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		022144E026E7FA1E00E45688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		022144E126E7FA1E00E45688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		022144E326E7FA1E00E45688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X49L8C24X9;
+				INFOPLIST_FILE = "FoodButton-Anh-Tran/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anh-Tran.FoodButton-Anh-Tran";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		022144E426E7FA1E00E45688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X49L8C24X9;
+				INFOPLIST_FILE = "FoodButton-Anh-Tran/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anh-Tran.FoodButton-Anh-Tran";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		022144E626E7FA1E00E45688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X49L8C24X9;
+				INFOPLIST_FILE = "FoodButton-Anh-TranTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anh-Tran.FoodButton-Anh-TranTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodButton-Anh-Tran.app/FoodButton-Anh-Tran";
+			};
+			name = Debug;
+		};
+		022144E726E7FA1E00E45688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X49L8C24X9;
+				INFOPLIST_FILE = "FoodButton-Anh-TranTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anh-Tran.FoodButton-Anh-TranTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodButton-Anh-Tran.app/FoodButton-Anh-Tran";
+			};
+			name = Release;
+		};
+		022144E926E7FA1E00E45688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X49L8C24X9;
+				INFOPLIST_FILE = "FoodButton-Anh-TranUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anh-Tran.FoodButton-Anh-TranUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FoodButton-Anh-Tran";
+			};
+			name = Debug;
+		};
+		022144EA26E7FA1E00E45688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X49L8C24X9;
+				INFOPLIST_FILE = "FoodButton-Anh-TranUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anh-Tran.FoodButton-Anh-TranUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FoodButton-Anh-Tran";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022144B326E7FA1900E45688 /* Build configuration list for PBXProject "FoodButton-Anh-Tran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022144E026E7FA1E00E45688 /* Debug */,
+				022144E126E7FA1E00E45688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		022144E226E7FA1E00E45688 /* Build configuration list for PBXNativeTarget "FoodButton-Anh-Tran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022144E326E7FA1E00E45688 /* Debug */,
+				022144E426E7FA1E00E45688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		022144E526E7FA1E00E45688 /* Build configuration list for PBXNativeTarget "FoodButton-Anh-TranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022144E626E7FA1E00E45688 /* Debug */,
+				022144E726E7FA1E00E45688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		022144E826E7FA1E00E45688 /* Build configuration list for PBXNativeTarget "FoodButton-Anh-TranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022144E926E7FA1E00E45688 /* Debug */,
+				022144EA26E7FA1E00E45688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 022144B026E7FA1900E45688 /* Project object */;
+}
