@@ -9,12 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var messageLable: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func orderBugerPressed(_ sender: UIButton) {
+        
+        messageLable.text = "🍔 $15.99"
+    }
+    
+    @IBAction func orderPizzaPressed(_ sender: UIButton) {
+        
+         messageLable.text = "🍕 $19.99"
+        
+    }
 }
 
