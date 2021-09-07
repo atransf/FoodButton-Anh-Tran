@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
     @IBAction func orderBugerPressed(_ sender: UIButton) {
         
-        messageLable.text = "🍔 $15.99"
+        messageLable.text = "🍔 $14.99"
     }
     
     @IBAction func orderPizzaPressed(_ sender: UIButton) {
